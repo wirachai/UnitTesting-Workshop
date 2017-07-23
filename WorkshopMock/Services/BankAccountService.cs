@@ -4,14 +4,14 @@ namespace WorkshopMock.Services
 {
     public class BankAccountService
     {
-        public AccountRepository AccountRepository { get; set; }
+        public IAccountRepository AccountRepository { get; set; }
 
         public BankAccountService()
         {
             AccountRepository = new AccountRepository();
         }
 
-        public BankAccountService(AccountRepository repo)
+        public BankAccountService(IAccountRepository repo)
         {
             AccountRepository = repo;
         }

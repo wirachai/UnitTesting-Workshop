@@ -1,6 +1,6 @@
 ﻿namespace WorkshopMock.Repositories
 {
-    public class AccountRepository
+    public class AccountRepository : WorkshopMock.Repositories.IAccountRepository
     {
         public decimal GetBalance(string accountId)
         {
