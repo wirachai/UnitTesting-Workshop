@@ -42,7 +42,6 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositories\AccountRepository.cs" />
-    <Compile Include="Repositories\AccountRepository_Mock.cs" />
     <Compile Include="Repositories\IAccountRepository.cs" />
     <Compile Include="Services\BankAccountService.cs" />
   </ItemGroup>
